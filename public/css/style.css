@@ -1,0 +1,67 @@
+body{
+    height: 1000px;
+}
+.head-top{
+    height: 135px;
+    background: gray;
+}
+
+/* NARBAR*/
+#header nav{
+    background: #762C14;
+    text-transform: uppercase;
+
+}
+
+.nav-custom > li > a, .navbar-brand {
+    padding-top: 10px !important; 
+    padding-bottom: 0 !important;
+    height: 40px;
+}
+.navbar-custom {
+    min-height:40px !important;
+}
+
+.icon-bar{
+    background: white;
+}
+
+#header .navbar-custom li a{
+    color: white;
+}
+
+.navbar .navbar-toggle {
+    margin-top: 4px; 
+    margin-bottom: 0px; 
+    padding: 8px 8px; 
+     border: 1px solid #1b6d85;
+}
+
+
+#header .navbar-custom li.active a, #header .navbar-custom li:hover a{
+    background-color: #883215;
+
+}
+
+@media (min-width: 991px) {
+    .navbar-custom li{
+        border-left: 1px solid #9E3918;
+    }
+}
+
+
+#content{
+    margin-top: 10px;
+}
+
+#content h1{
+    font-size: 20px;
+    color: #652714;
+}
+
+#content h2{
+    font-size: 18px;
+    color: #121212;
+}
+
+
